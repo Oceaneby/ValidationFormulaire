@@ -1,0 +1,26 @@
+form{
+    padding: 10px;
+    background: rgba(253, 212, 219, 0.707);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+}
+button{
+    background-color: palevioletred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+small{
+    color: red;
+   
+}

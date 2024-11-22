@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulaire d'inscriptiont</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    
+    <form id ="registrationForm">
+        <div>
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username">
+            <small class="error-message"></small>
+        </div>
+        <div>
+            <label for="email">Adresse e-mail :</label>
+            <input type="text" id="email" name="email">
+            <small class="error-message"></small>
+        </div>
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password">
+            <small class="error-message"></small>
+        </div>
+        <div>
+            <label for="confirmPassword">Confirmer le mot de passe :</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <small class="error-message"></small>
+        </div>
+        <button type="submit">S'inscrire</button>
+    </form>
+
+  
 </body>
 </html>
